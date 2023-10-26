@@ -1,11 +1,11 @@
 # gorillamux-postgres-webserver
 
-This is a stocks API using Postgres database with Golang. 
-it implements gorillamux, lib/pq and database/sql packages.
+This is a stocks API using Postgres database with Golang.  
+It implements gorillamux, lib/pq and database/sql packages.
 
 ### Step 1
 
-To begin fork project using http or ssh.
+To begin, clone the project using http or ssh.  
 Create a new Postgres database and begin Postgres service.
 
 ### Step 2
@@ -16,7 +16,7 @@ Set up .env file in root folder.
 POSTGRES_URL="postgres://<username>:<password>@localhost:5432/<dbname>"
 ```
 
-## Step 3
+### Step 3
 
 In terminal run:
 
